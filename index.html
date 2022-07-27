@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body class="container">
+  <body class="m-0 p-o">
     <!-- header start -->
    <header class="container">
 
      <!-- navar start -->
-     <nav class="navbar navbar-expand-lg bg-light ">
-        <div>
+     <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
           <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,7 +41,7 @@
       </nav>
     <!-- navar end -->
     <!-- banner/slide section start -->
-    <section class="mt-5">
+    <section class="my-5">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active border rounded panda-slide p-5">
@@ -106,7 +106,7 @@
 
 
     <!-- main start  -->
-    <main>
+   <main class="continer" >
       <!-- catagories section start  -->
       <section class="my-5">
         <div class="container text-center">
@@ -132,10 +132,10 @@
           </div>
         </div>
       </section>
-    <!-- catagories section start  -->
+    <!-- catagories section end  -->
 
     <!-- main/shoes section start  -->
-    <section class="my-5">
+    <section class="my-5 container">
       <h1>Shoes</h1>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <div class="col">
@@ -179,9 +179,10 @@
         </div>
       </div>
     </section>
+    <!-- main/shoes section end  -->
 
-    <!-- main/backpack section  -->
-    <section class="my-5">
+    <!-- main/backpack section start  -->
+    <section class="my-5 container">
       <h1>Backpack</h1>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <div class="col">
@@ -225,16 +226,34 @@
         </div>
       </div>
     </section>
-    <!-- main/backpack section  -->
-    
-    <!-- main/shoes section end  -->
-    </main>
-    <!-- main end  -->
+    <!-- main/backpack section end  -->
 
-    
+    <!-- main/subscribe section start -->
+    <section class="mt-5 container">
+      <div style="height:300px" class="d-flex justify-content-center align-items-center panda-slide rounded-4">
+        <div>
+          <h1>LET'S STAY IN TOUCH</h1>
+          <p>Get updates on sales, specials and more</p>
+          <form>
+            <div class="mb-2">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text"></div>
+            </div>
+            <button type="submit" class="btn btn-bg-panda">Submit</button>
+          </form>
+        </div>  
+      </div>
+    </section>
+    <!-- main/subscribe section end -->
+  </main>
+  <!-- main end  -->
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <!-- footer start -->
+  <footer style="height:100px" class="text-center mb-o bg-dark d-flex align-items-end justify-content-center p-0">
+    <p class="text-white"><small>©2023. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+  </footer>
+  <!-- footer end -->
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
